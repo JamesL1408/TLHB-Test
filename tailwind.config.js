@@ -8,7 +8,7 @@ module.exports = {
       colors:{
         'Classy' : '#D7C49EFF',
         'Jet' : '#2D2E2E',
-        'LimeGreen' : '#65bc7b',
+        'LimeGreen' : '#32CD32',
       },
       screens: {
         '730pixels' : '730px',

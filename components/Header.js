@@ -50,7 +50,7 @@ function Header() {
             <MenuIcon className='h-9 w-9 hover:brightness-125  text-Classy cursor-pointer rounded-full'/>
         </div>
 
-        <div className='fixed h-10 w-10 top-[81px] right-4 rounded-full bg-green-600 brightness-150 flex items-center justify-center p-2 hover:bg-Classy hover:brightness-100 ' ><a className='w-full h-full' href=""><ShoppingCartIcon className=''/></a></div>
+        <div className='fixed h-10 w-10 top-[81px] right-4 rounded-full bg-LimeGreen brightness-150 flex items-center justify-center p-2 hover:bg-Classy hover:brightness-100' ><a className='w-full h-full' href=""><ShoppingCartIcon className=''/></a></div>
 
     </div>
           {/* Mobile Screen 0-730pix MENU SECTION*/}
