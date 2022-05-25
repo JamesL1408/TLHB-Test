@@ -6,6 +6,7 @@ import Hero from '../components/Hero'
 import AboutUsCard from '../components/AboutUsCard'
 import ContactUsCard from '../components/ContactUsCard'
 import OpeningTimesCard from '../components/OpeningTimesCard'
+import EventsInfoCard from '../components/EventsInfoCard'
 
 
 const Home = () => {
@@ -28,6 +29,9 @@ const Home = () => {
         <div  className='730pixels:col-span-2 900pixels:col-span-1'>
         <ContactUsCard />
         </div>
+      </main>
+      <main className='mt-5 grid grid-cols-1 gap-8 730pixels:grid-cols-2 900pixels:grid-cols-3 mx-[10%]'>
+        <EventsInfoCard/>
       </main>
       
       <div className='w-full h-[400px]'></div>
