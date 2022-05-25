@@ -32,7 +32,7 @@ const Home = () => {
         <ContactUsCard />
         </div>
       </main>
-      <main className='mt-5 grid grid-cols-1 gap-8 730pixels:grid-cols-2 900pixels:grid-cols-3 mx-[10%]'>
+      <main className='mt-8 grid grid-cols-1 gap-8 730pixels:grid-cols-2 900pixels:grid-cols-3 mx-[10%]'>
         <EventsInfoCard/>
         <ShopOnlineCard/>
         <DeliveryInfoCard/>
