@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Header from '../components/Header'
+import Hero from '../components/Hero'
+
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@100;300;400;500;700;900&family=Satisfy&display=swap" rel="stylesheet"></link>
       </Head>
       <Header/>
+      <div className='flex w-full h-[80px] bg-transparent'></div>
+      <Hero/>
 
 
 
