@@ -4,7 +4,22 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'Classy' : '#D7C49EFF',
+        'Jet' : '#2D2E2E',
+        'LimeGreen' : '#65bc7b',
+      },
+      screens: {
+        '730pixels' : '730px',
+        '900pixels' : '900px'
+      },
+      fontFamily:{
+        Courgette : "'Courgette',cursive",
+        Roboto : "'Roboto', sans-serif",
+        Satisfy : "'Satisfy', scursive",
+      },
+    },
   },
   plugins: [],
 }
