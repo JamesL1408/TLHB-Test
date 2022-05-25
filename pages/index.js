@@ -3,6 +3,9 @@ import Image from 'next/image'
 
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import AboutUsCard from '../components/AboutUsCard'
+import ContactUsCard from '../components/ContactUsCard'
+import OpeningTimesCard from '../components/OpeningTimesCard'
 
 
 const Home = () => {
@@ -19,6 +22,13 @@ const Home = () => {
       <div className='flex w-full h-[80px] bg-transparent'></div>
       <Hero/>
 
+      <main className='mt-10  grid grid-cols-1 gap-8 730pixels:grid-cols-2 900pixels:grid-cols-3  mx-[10%] '>
+        <AboutUsCard/>
+        <OpeningTimesCard/>
+        <div  className='730pixels:col-span-2 900pixels:col-span-1'>
+        <ContactUsCard />
+        </div>
+      </main>
 
 
 
