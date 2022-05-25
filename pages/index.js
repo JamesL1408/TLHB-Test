@@ -29,10 +29,8 @@ const Home = () => {
         <ContactUsCard />
         </div>
       </main>
-
-
-
-
+      
+      <div className='w-full h-[400px]'></div>
       
     </div>
   )
