@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-200">
       <Head>
-        <title>TLHB</title>
+        <title>The London House Butchery</title>
         <link rel="icon" href="/3D L.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -81,7 +81,7 @@ const Home = () => {
           <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="">{'>'} The Butchers</a>
           <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="">{'>'} The Deli</a>
           <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="/about">{'>'} About Us </a>
-          <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="">{'>'} Contact Us</a>
+          <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="/contact">{'>'} Contact Us</a>
         </div>
         <div className='flex flex-col 900pixels:w-[33.3%] items-center'>
           <h1 className='text-lg font-medium my-5'>The London House Butchery</h1>

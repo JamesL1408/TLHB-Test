@@ -26,7 +26,7 @@ function Header() {
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="/about">About</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="">Discover</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="">Find Us</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
-            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="">Contact Us</a><span className='h-[2px] w-0  bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
+            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="/contact">Contact Us</a><span className='h-[2px] w-0  bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
  
         </div>
         <div className='flex items-center justify-center space-x-2'>
@@ -60,7 +60,7 @@ function Header() {
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="/about">About</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="">Discover</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="">Find Us</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
-            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="">Contact Us</a><span className='h-[2px] w-0  bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
+            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="/contact">Contact Us</a><span className='h-[2px] w-0  bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             
         </div>
         <div className='absolute left-1/2 bottom-2 -translate-x-1/2 text-sm flex flex-col items-center text-center justify-center whitespace-nowrap text-white'>
