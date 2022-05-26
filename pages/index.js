@@ -101,6 +101,10 @@ const Home = () => {
         </div>
 
       </section>
+
+      <footer className='w-full h-[100px] bg-Jet'>
+
+      </footer>
       
     </div> 
   )
