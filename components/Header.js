@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import LogoWhite from '../images/LogoWhite.png'
+import LogoWhite from '../images/LogoWhite1.png'
 import FacebookLink from '../images/facebook.png'
 import {ShoppingCartIcon,MenuIcon} from '@heroicons/react/outline'
 
@@ -19,11 +19,11 @@ function Header() {
   return (
     <div>
       {/* Monitor Screen 730pix + */}
-    <div className='hidden 730pixels:flex w-full items-center justify-around bg-Jet h-[80px] fixed top-0 left-0 z-30 '>
-        <div className='relative w-[180px] flex items-center justify-center '><Image src={LogoWhite} /></div>
+    <div className='hidden 730pixels:flex w-full items-center justify-around bg-Jet h-[80px] fixed top-0 left-0 z-50 '>
+        <a href='/' className='relative w-[180px] flex items-center justify-center '><Image src={LogoWhite} /></a>
         <div className='flex space-x-6 text-white select-none'>
 
-            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="">About</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
+            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="/about">About</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="">Discover</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="">Find Us</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="">Contact Us</a><span className='h-[2px] w-0  bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
@@ -57,7 +57,7 @@ function Header() {
       <div className='small-menu fixed 730pixels:hidden w-full h-[40%] z-40 top-[80px] left-0 bg-Jet flex items-center justify-center  transition-all duration-200 ease-in-out border-t border-Classy -translate-y-full'>
         <div className='relative flex flex-col space-y-3 text-white select-none items-center justify-center text-center h-full w-full mb-14 '>
 
-            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="">About</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
+            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="/about">About</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="">Discover</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="">Find Us</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="">Contact Us</a><span className='h-[2px] w-0  bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>

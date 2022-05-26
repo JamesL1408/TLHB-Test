@@ -80,7 +80,7 @@ const Home = () => {
           <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="">{'>'} Delivery Information</a>
           <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="">{'>'} The Butchers</a>
           <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="">{'>'} The Deli</a>
-          <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="">{'>'} About Us </a>
+          <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="/about">{'>'} About Us </a>
           <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="">{'>'} Contact Us</a>
         </div>
         <div className='flex flex-col 900pixels:w-[33.3%] items-center'>
