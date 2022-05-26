@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactMapGL,{Marker,Popup} from 'react-map-gl';
+import ReactMapGL from 'react-map-gl';
 
 function Map() {
   return <ReactMapGL 
@@ -14,4 +14,4 @@ function Map() {
 
 }
 
-export default Map
+export default Map 

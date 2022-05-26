@@ -45,7 +45,7 @@ const Home = () => {
       
       <div className='w-full h-[100px]'></div>
 
-      <section className='h-[400px] w-full'>
+      <section className='h-[400px] w-full flex bg-transparent text-transparent'>
         <Map/>
       </section>
       
