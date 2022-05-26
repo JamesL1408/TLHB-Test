@@ -9,9 +9,14 @@ import OpeningTimesCard from '../components/OpeningTimesCard'
 import EventsInfoCard from '../components/EventsInfoCard'
 import ShopOnlineCard from '../components/ShopOnlineCard'
 import DeliveryInfoCard from '../components/DeliveryInfoCard'
+import Map from '../components/Map'
+
+
 
 
 const Home = () => {
+
+
   return (
     <div className="flex flex-col min-h-screen bg-gray-200">
       <Head>
@@ -38,9 +43,13 @@ const Home = () => {
         <DeliveryInfoCard/>
       </main>
       
-      <div className='w-full h-[400px]'></div>
+      <div className='w-full h-[100px]'></div>
+
+      <section className='h-[400px] w-full'>
+        <Map/>
+      </section>
       
-    </div>
+    </div> 
   )
 }
 
