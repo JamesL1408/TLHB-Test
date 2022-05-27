@@ -27,16 +27,16 @@ const about = () => {
 
             {/*Hero Section*/}
 
-            <section className='w-full h-[500px] hidden items-center justify-center 730pixels:flex relative bg-Jet overflow-hidden group  '>
+            <section className='w-full h-[350px] sm:h-[450px] 730pixels:h-[500px] items-center justify-center flex relative bg-Jet overflow-hidden group  '>
                 <div className='w-full h-full absolute left-0 bottom-0 flex justify-center items-center z-20 group-hover:opacity-40 transition-all duration-500 ease-in-out'><Image src={Logo} objectFit='contain'/>  </div>              
-                <div className='w-full h-full absolute left-0 bottom-0 flex justify-center items-center z-0'><Image src={Steak} objectFit='contain'/></div>     
+                <div className='w-full h-full absolute left-0 bottom-0 flex justify-center items-center z-0'><Image src={Steak} objectFit='cover' layout='fill'/></div>     
                 <div className='w-full h-full absolute left-0 bottom-0 flex justify-center items-center bg-Jet opacity-95 z-10 group-hover:opacity-40 transition-all duration-500 ease-in-out'></div>  
                 <div className=' font-Satisfy absolute z-30 text-Classy text-4xl bottom-4 left-1/2 -translate-x-1/2 group-hover:opacity-40 transition-all duration-500 ease-in-out '>About Us</div>
             </section>
             
             {/*About Us Section*/}
 
-            <section className='w-full flex flex-col items-center text-center justify-center my-10 text-lg font-medium text-gray-600 space-y-6 select-none'>
+            <section className='w-full flex flex-col items-center text-center justify-center my-16 text-lg font-medium text-gray-600 space-y-6 select-none'>
                 <p className='w-[80%]'>Millins Of Tiptree employ highly trained, knowledgeable butchers who have years of experience for you to tap into. We go to great lengths to source our meat from local, loyal suppliers we know and trust.</p>
                 <p className='w-[80%]'>We strive to offer you incredible value in the quality of our products as well as our expert and professional service.</p>
                 <p className='w-[80%]'>Traditional {'&'} Artisan Butchers {'&'} Food Hall<br/>Suppliers of Beef, Lamb, Pork, Poultry {'&'} Game Delicatessen, Charcuterie, Wines, Spirits and lots of Gin!<br/>Specialists in Local Produce...</p>
