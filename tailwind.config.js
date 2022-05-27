@@ -12,6 +12,7 @@ module.exports = {
       },
       screens: {
         '730pixels' : '730px',
+        '770pixels' : '770px',
         '900pixels' : '900px'
       },
       fontFamily:{
