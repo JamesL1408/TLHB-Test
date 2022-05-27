@@ -43,7 +43,7 @@ function Header() {
 
     <div className='flex 730pixels:hidden w-full items-center justify-between px-5 bg-Jet h-[80px] fixed top-0 left-0 z-50 '>
 
-        <div className='relative w-[180px] flex items-center justify-center '><Image src={LogoWhite} /></div>
+        <a href='/' className='relative w-[180px] flex items-center justify-center '><Image src={LogoWhite} /></a>
         
          {/* Menu Button Open*/}
         <div className='menu-open-btn flex items-center justify-center space-x-2'>
