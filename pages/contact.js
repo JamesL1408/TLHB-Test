@@ -18,7 +18,10 @@ const contact = () => {
         emailjs.sendForm("service_xvv2n4a","template_66wowcl",e.target,"user_EQHsAk1zzVWnSq2Z1nM5F").then(res=>{
             console.log(res);
             alert("Message Sent! We will get back to you as soon as possible.")
-        }).catch(err=> console.log(err));
+        }).catch(err=>{ 
+            console.log(err);
+            alert("Error sending message. Please try again.")
+        });
     }
 
     return (
@@ -62,7 +65,7 @@ const contact = () => {
                         <h1 className='text-xl font-medium font-Roboto'>Contact Form</h1>
                         <div className='bg-Classy h-[2px] w-[80%]'></div>
                     </div>
-                    <form onSubmit={sendEmail} className='flex flex-col space-y-4 items-start justify-center w-full'>
+                    <form onSubmit={sendEmail} className='flex flex-col space-y-4 items-start justify-center w-full text-black'>
                         <div className='flex flex-col space-y-1  w-full'>
                             <label className='text-sm text-white font-medium' htmlFor="">Name</label>
                             <input className='rounded-sm bg-gray-200 w-[90%] px-1' type="text" name='name' id='name' />
@@ -77,7 +80,7 @@ const contact = () => {
                         </div>
                         <div className='flex flex-col space-y-1  w-full'>
                             <label className='text-sm text-white font-medium' htmlFor="">Message</label>
-                            <textarea className='bg-gray-200' name="message" id="message"  rows="10"></textarea> 
+                            <textarea className='bg-gray-200 p-1' name="message" id="message"  rows="10"></textarea> 
                         </div>
                         <div className='w-full flex items-center justify-center'>
                         <input className='px-14 py-2 bg-Classy text-Jet rounded-sm font-semibold shadow-md shadow-gray-700 cursor-pointer hover:bg-gray-200 hover:text-Jet transition-all duration-300 ease-in-out' type="submit" value="Send" />

@@ -7,7 +7,7 @@ function EventsInfoCard() {
     <div >
 
         {/* Writing Layer */}
-       <a href="" className='w-full h-min rounded-md flex text-center items-center shadow-md shadow-gray-400 select-none relative group'>
+       <a href="https://www.facebook.com/theLondonHousebutchery/" target='_blank' className='w-full h-min rounded-md flex text-center items-center shadow-md shadow-gray-400 select-none relative group'>
         <div className='flex flex-col items-center justify-center px-5 py-5 bg-transparent rounded-md space-y-7 z-20 text-white group-hover:opacity-40 transition-all duration-500 ease-in-out '>
             <h1 className=' text-xl font-semibold'>Events {'&'} Offers</h1>
             <div className='h-[2px] w-[80%] bg-white'></div>
@@ -20,7 +20,7 @@ function EventsInfoCard() {
 
 
         {/* Image Layer */}
-        <div className='absolute w-full h-full rounded-md  overflow-hidden z-0'><Image className='rounded-md z-0 group-hover:scale-110 transition-all duration-500 ease-in-out' layout='fill' src={EventsImg}/></div>
+        <div className='absolute w-full h-full rounded-md  overflow-hidden z-0'><Image className='rounded-md z-0 group-hover:scale-110 transition-all duration-500 ease-in-out' layout='fill' objectFit='cover' src={EventsImg}/></div>
 </a>
     </div>
   )

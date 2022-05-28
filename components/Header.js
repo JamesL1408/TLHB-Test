@@ -30,10 +30,10 @@ function Header() {
  
         </div>
         <div className='flex items-center justify-center space-x-2'>
-            <button className='relative group px-6 py-2 bg-Classy rounded-md flex items-center justify-center text-center overflow-hidden hover:scale-105 '>
+            <a href='/shop' className='relative group px-6 py-2 bg-Classy rounded-md flex items-center justify-center text-center overflow-hidden hover:scale-105 '>
                 <div className='z-10 text-Jet bg-transparent font-semibold'>Order Online</div>
                 <div className='absolute top-0 left-0 rounded-sm translate-x-full group-hover:translate-x-0 transition-all duration-300 ease-in-out h-full w-full bg-Classy brightness-125'></div>
-            </button>
+            </a>
             <ShoppingCartIcon className='h-6 w-6 hover:brightness-125 hover:scale-105 text-Classy cursor-pointer rounded-full'/>
         </div>
     </div>

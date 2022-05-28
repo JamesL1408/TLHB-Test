@@ -9,7 +9,7 @@ function Footer() {
         <section className='w-full bg-gray-700 flex flex-col 900pixels:flex-row 900pixels:justify-around justify-center items-center text-white text-center font-Roboto py-3'>
         <div className='grid  grid-cols-1 gap-3 900pixels:w-[33.3%] '>
           <h2 className='font-medium col-span-full mb-4 text-lg '>Quick Links</h2>
-          <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out ' href="">{'>'} Shop Online</a>
+          <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out ' href="/shop">{'>'} Shop Online</a>
           <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="">{'>'} Delivery Information</a>
           <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="">{'>'} The Butchers</a>
           <a className='hover:underline hover:underline-offset-1 hover:text-Classy transition-all duration-300 ease-in-out' href="">{'>'} The Deli</a>
