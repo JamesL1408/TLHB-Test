@@ -9,6 +9,7 @@ import HeroImg from '../images/SteakShop.jpeg'
 import Header from '../components/Header'
 import Map from '../components/Map'
 import Footer from '../components/Footer'
+import TypeOfProductCard from '../components/TypeOfProductCard'
 
 function shop() {
   return (
@@ -32,6 +33,10 @@ function shop() {
                 <div className='w-full h-full absolute left-0 bottom-0 flex justify-center items-center z-0'><Image src={HeroImg} objectFit='cover' layout='fill'/></div>     
                 <div className='w-full h-full absolute left-0 bottom-0 flex justify-center items-center bg-Jet opacity-95 z-10 group-hover:opacity-40 transition-all duration-500 ease-in-out'></div>  
                 <div className=' font-Satisfy absolute z-30 text-Classy text-4xl bottom-4 left-1/2 -translate-x-1/2 group-hover:opacity-40 transition-all duration-500 ease-in-out '>Shop</div>
+        </section>
+
+        <section>
+          
         </section>
 
     </div>
