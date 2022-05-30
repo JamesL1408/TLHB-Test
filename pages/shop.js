@@ -5,6 +5,12 @@ import Head from 'next/head'
 import DirectionLogo from '../images/direct-instagram.png'
 import FacebookLink from '../images/facebook.png'
 import HeroImg from '../images/SteakShop.jpeg'
+import Chicken from '../images/Chicken.jpg'
+import Beef from '../images/Beef.jpg'
+import Poultry from '../images/poultry.jpeg'
+import Sausage from '../images/Sausage.jpeg'
+import Pork from '../images/Pork.jpeg'
+
 
 import Header from '../components/Header'
 import Map from '../components/Map'
@@ -13,7 +19,7 @@ import TypeOfProductCard from '../components/TypeOfProductCard'
 
 function shop() {
   return (
-    <div className='flex flex-col min-h-screen bg-gray-200'>
+    <div className='flex flex-col min-h-screen bg-gray-200 items-center'>
         <Head>
         <title>The London House Butchery</title>
         <link rel="icon" href="/3D L.ico" />
@@ -35,8 +41,20 @@ function shop() {
                 <div className=' font-Satisfy absolute z-30 text-Classy text-4xl bottom-4 left-1/2 -translate-x-1/2 group-hover:opacity-40 transition-all duration-500 ease-in-out '>Shop</div>
         </section>
 
-        <section>
-          
+        <div className='flex flex-col mt-10  items-center justify-center w-[80%] '>
+          <h1 className='text-xl mb-2 font-Roboto font-medium'>Search Products</h1>
+          <input className='rounded-sm p-1 w-full max-w-[400px]' type="text" name="" id="" />
+        </div>
+
+        <section className='mt-8 mx-[10%] items-center justify-center grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4 lg:gap-10 '>
+          <TypeOfProductCard ProductImage={Chicken} ProductName='Chicken' />
+          <TypeOfProductCard ProductImage={Beef} ProductName='Beef' />
+          <TypeOfProductCard ProductImage={Poultry} ProductName='Poultry' />
+          <TypeOfProductCard ProductImage={Sausage} ProductName='Sausage' />
+          <TypeOfProductCard ProductImage={Pork} ProductName='Pork' />
+          <TypeOfProductCard ProductImage={Chicken} ProductName='Chicken' />
+          <TypeOfProductCard ProductImage={Chicken} ProductName='Chicken' />
+          <TypeOfProductCard ProductImage={Chicken} ProductName='Chicken' />
         </section>
 
     </div>
