@@ -10,6 +10,9 @@ import Beef from '../images/Beef.jpg'
 import Poultry from '../images/poultry.jpeg'
 import Sausage from '../images/Sausage.jpeg'
 import Pork from '../images/Pork.jpeg'
+import Lamb from '../images/Lamb.jpg'
+import BBQ from '../images/BBQ.jpg'
+import Fish from '../images/Fish.jpg'
 
 
 import Header from '../components/Header'
@@ -21,7 +24,7 @@ function shop() {
   return (
     <div className='flex flex-col min-h-screen bg-gray-200 items-center'>
         <Head>
-        <title>The London House Butchery</title>
+        <title>Shop - The London House Butchery</title>
         <link rel="icon" href="/3D L.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -52,10 +55,11 @@ function shop() {
           <TypeOfProductCard ProductImage={Poultry} ProductName='Poultry' />
           <TypeOfProductCard ProductImage={Sausage} ProductName='Sausage' />
           <TypeOfProductCard ProductImage={Pork} ProductName='Pork' />
-          <TypeOfProductCard ProductImage={Chicken} ProductName='Chicken' />
-          <TypeOfProductCard ProductImage={Chicken} ProductName='Chicken' />
-          <TypeOfProductCard ProductImage={Chicken} ProductName='Chicken' />
+          <TypeOfProductCard ProductImage={Lamb} ProductName='Lamb' />
+          <TypeOfProductCard ProductImage={BBQ} ProductName='BBQ' />
+          <TypeOfProductCard ProductImage={Fish} ProductName='Fish' />
         </section>
+        <div className='w-full h-[100px]'></div>
 
     </div>
   )
