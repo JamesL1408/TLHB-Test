@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { commerce } from '../src/lib/commerce';
 
 import Header from '../components/Header'
 import Hero from '../components/Hero'
