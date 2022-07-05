@@ -24,17 +24,16 @@ function Header() {
         <div className='flex space-x-6 text-white select-none'>
 
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="/about">About</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
-            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="">Discover</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
-            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="">Find Us</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
+            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="https://www.facebook.com/theLondonHousebutchery/" target='_blank'>Discover</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
+            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="https://www.google.com/maps/place/The+London+House+Butchery/@51.8189764,-4.6143802,15z/data=!4m5!3m4!1s0x0:0x541984e21f183f54!8m2!3d51.8189959!4d-4.6142988" target='_blank'>Find Us</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="/contact">Contact Us</a><span className='h-[2px] w-0  bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
  
         </div>
         <div className='flex items-center justify-center space-x-2'>
             <a href='/shop' className='relative group px-6 py-2 bg-Classy rounded-md flex items-center justify-center text-center overflow-hidden hover:scale-105 '>
-                <div className='z-10 text-Jet bg-transparent font-semibold'>Order Online</div>
+                <div className='z-10 text-Jet bg-transparent font-semibold'>Our Menu</div>
                 <div className='absolute top-0 left-0 rounded-sm translate-x-full group-hover:translate-x-0 transition-all duration-300 ease-in-out h-full w-full bg-Classy brightness-125'></div>
             </a>
-            <ShoppingCartIcon className='h-6 w-6 hover:brightness-125 hover:scale-105 text-Classy cursor-pointer rounded-full'/>
         </div>
     </div>
 
@@ -50,7 +49,7 @@ function Header() {
             <MenuIcon className='h-9 w-9 hover:brightness-125  text-Classy cursor-pointer rounded-full'/>
         </div>
 
-        <div className='fixed h-10 w-10 top-[81px] right-4 rounded-full bg-LimeGreen brightness-150 flex items-center justify-center p-2 hover:bg-Classy hover:brightness-100' ><a className='w-full h-full' href=""><ShoppingCartIcon className=''/></a></div>
+        <div className='fixed h-10 w-10 top-[81px] right-4 rounded-full bg-LimeGreen brightness-150 flex items-center justify-center p-2 hover:bg-Classy hover:brightness-100' ><a className='w-full h-full' href="/shop"><ShoppingCartIcon className=''/></a></div>
 
     </div>
           {/* Mobile Screen 0-730pix MENU SECTION*/}
@@ -58,8 +57,8 @@ function Header() {
         <div className='relative flex flex-col space-y-3 text-white select-none items-center justify-center text-center h-full w-full mb-14 '>
 
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="/about">About</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
-            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="">Discover</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
-            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="">Find Us</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
+            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="https://www.facebook.com/theLondonHousebutchery/" target='_blank'>Discover</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
+            <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="https://www.google.com/maps/place/The+London+House+Butchery/@51.8189764,-4.6143802,15z/data=!4m5!3m4!1s0x0:0x541984e21f183f54!8m2!3d51.8189959!4d-4.6142988" target='_blank'>Find Us</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out text-lg' href="/contact">Contact Us</a><span className='h-[2px] w-0  bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
             
         </div>

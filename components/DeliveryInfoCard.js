@@ -7,12 +7,12 @@ function DeliveryInfoCard() {
     <div >
 
         {/* Writing Layer */}
-        <a href="" className='w-full h-min rounded-md flex text-center items-center shadow-md shadow-gray-400 select-none relative group'>
+        <a href="https://www.facebook.com/theLondonHousebutchery/" target='_blank' className='w-full h-min rounded-md flex text-center items-center shadow-md shadow-gray-400 select-none relative group'>
         <div className='flex flex-col items-center justify-center px-5 py-5 bg-transparent rounded-md space-y-7 z-20 text-white group-hover:opacity-40 transition-all duration-500 ease-in-out'>
             <h1 className=' text-xl font-semibold'>Deliveries</h1>
             <div className='h-[2px] w-[80%] bg-white'></div>
             <p>Be the first to hear about special offers and promotions, by following us on social media or signing up for our newsletter. </p>
-            <a className='py-2 px-4 bg-transparent rounded-md text-xs font-semibold text-white font-Roboto shadow-sm shadow-gray-500  border border-white' href="">TAKE A LOOK  {'>'}</a>
+            <a className='py-2 px-4 bg-transparent rounded-md text-xs font-semibold text-white font-Roboto shadow-sm shadow-gray-500  border border-white' href="https://www.facebook.com/theLondonHousebutchery/" target='_blank'>TAKE A LOOK  {'>'}</a>
         </div>
 
         {/* Opacity Layer */}

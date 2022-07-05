@@ -12,7 +12,7 @@ function EventsInfoCard() {
             <h1 className=' text-xl font-semibold'>Events {'&'} Offers</h1>
             <div className='h-[2px] w-[80%] bg-white'></div>
             <p>Be the first to hear about special offers and promotions, by following us on social media or signing up for our newsletter. </p>
-            <a className='py-2 px-4 bg-Classy rounded-md text-xs font-semibold text-Jet font-Roboto shadow-sm shadow-gray-500  border border-white' href="">TAKE A LOOK  {'>'}</a>
+            <a className='py-2 px-4 bg-Classy rounded-md text-xs font-semibold text-Jet font-Roboto shadow-sm shadow-gray-500  border border-white' href="https://www.facebook.com/theLondonHousebutchery/" target='_blank'>TAKE A LOOK  {'>'}</a>
         </div>
 
         {/* Opacity Layer */}
