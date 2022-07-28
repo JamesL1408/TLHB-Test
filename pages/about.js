@@ -37,7 +37,7 @@ const about = () => {
             {/*About Us Section*/}
 
             <section className='w-full flex flex-col items-center text-center justify-center my-16 text-lg font-medium text-gray-600 space-y-6 select-none max-w-[1000px] mx-auto'>
-                <p className='w-[80%]'>Millins Of Tiptree employ highly trained, knowledgeable butchers who have years of experience for you to tap into. We go to great lengths to source our meat from local, loyal suppliers we know and trust.</p>
+                <p className='w-[80%]'>The London House Butchery employ highly trained, knowledgeable butchers who have years of experience for you to tap into. We go to great lengths to source our meat from local, loyal suppliers we know and trust.</p>
                 <p className='w-[80%]'>We strive to offer you incredible value in the quality of our products as well as our expert and professional service.</p>
                 <p className='w-[80%]'>Traditional {'&'} Artisan Butchers {'&'} Food Hall<br/>Suppliers of Beef, Lamb, Pork, Poultry {'&'} Game Delicatessen, Charcuterie, Wines, Spirits and lots of Gin!<br/>Specialists in Local Produce...</p>
             </section>
