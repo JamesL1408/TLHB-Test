@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import EventsImg from '../images/EventImage.jpg'
+import EventsImg2 from '../images/meats.jpg'
 
 function EventsInfoCard() {
   return (
@@ -20,7 +21,7 @@ function EventsInfoCard() {
 
 
         {/* Image Layer */}
-        <div className='absolute w-full h-full rounded-md  overflow-hidden z-0'><Image className='rounded-md z-0 group-hover:scale-110 transition-all duration-500 ease-in-out' layout='fill' objectFit='cover' src={EventsImg}/></div>
+        <div className='absolute w-full h-full rounded-md  overflow-hidden z-0'><Image className='rounded-md z-0 group-hover:scale-110 transition-all duration-500 ease-in-out' layout='fill' objectFit='cover' src={EventsImg2}/></div>
 </a>
     </div>
   )

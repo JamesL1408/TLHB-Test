@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import DeliveryImage from '../images/SteakShop.jpeg'
+import DeliveryImage2 from '../images/BurgerCloseUp.jpg'
 
 function DeliveryInfoCard() {
   return (
@@ -20,7 +21,7 @@ function DeliveryInfoCard() {
 
 
         {/* Image Layer */}
-        <div className='absolute w-full h-full rounded-md z-0 overflow-hidden'><Image className='rounded-md z-0 group-hover:scale-110 transition-all duration-500 ease-in-out' layout='fill' objectFit='cover' src={DeliveryImage}/></div>
+        <div className='absolute w-full h-full rounded-md z-0 overflow-hidden'><Image className='rounded-md z-0 group-hover:scale-110 transition-all duration-500 ease-in-out' layout='fill' objectFit='cover' src={DeliveryImage2}/></div>
 
         </a>
         

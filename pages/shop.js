@@ -5,6 +5,7 @@ import Head from 'next/head'
 import DirectionLogo from '../images/direct-instagram.png'
 import FacebookLink from '../images/facebook.png'
 import HeroImg from '../images/SteakShop.jpeg'
+import HeroImg2 from '../images/deli3.jpg'
 import Header from '../components/Header'
 import Map from '../components/Map'
 import Footer from '../components/Footer'
@@ -35,7 +36,7 @@ function shop() {
                     <h1 className='text-6xl font-Satisfy'>Shop?</h1>
                     <h3 className='text-2xl font-Roboto '>HAVE A LOOK</h3>
                 </div>              
-                <div className='w-full h-full absolute left-0 bottom-0 flex justify-center items-center z-0'><Image src={HeroImg} objectFit='cover' layout='fill'/></div>     
+                <div className='w-full h-full absolute left-0 bottom-0 flex justify-center items-center z-0'><Image src={HeroImg2} objectFit='cover' layout='fill'/></div>     
                 <div className='w-full h-full absolute left-0 bottom-0 flex justify-center items-center bg-Jet opacity-95 z-10 group-hover:opacity-40 transition-all duration-500 ease-in-out'></div>  
                 <div className=' font-Satisfy absolute z-30 text-Classy text-4xl bottom-4 left-1/2 -translate-x-1/2 group-hover:opacity-40 transition-all duration-500 ease-in-out '>Shop</div>
         </section>
