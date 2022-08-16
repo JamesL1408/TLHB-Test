@@ -10,6 +10,9 @@ import HeroImg from '../images/ContactImgHero.jpg'
 import FacebookLink from '../images/facebook.png'
 import DirectionLogo from '../images/direct-instagram.png'
 
+import {ShoppingCartIcon} from '@heroicons/react/outline'
+
+
 const contact = () => {
 
     function sendEmail(e){
@@ -35,6 +38,7 @@ const contact = () => {
             <link href='https://api.tiles.mapbox.com/mapbox-gl-js/vmapbox-gl@2.8.2/mapbox-gl.css' rel='stylesheet' />
             </Head>
             <Header/>
+            <div className='fixed 730pixels:hidden h-10 w-10 top-[81px] right-4 rounded-full bg-LimeGreen brightness-150 flex items-center justify-center p-2 hover:bg-Classy hover:brightness-100 z-30' ><a className='w-full h-full' href="/shop"><ShoppingCartIcon className=''/></a></div>
 
             <section className='w-full h-[350px] sm:h-[450px] 730pixels:h-[500px] items-center justify-center flex relative bg-Jet overflow-hidden group  '>
                 <div className='w-full h-full absolute left-0 bottom-0 flex flex-col justify-center items-center z-20 group-hover:opacity-40 transition-all duration-500 ease-in-out text-white'> 

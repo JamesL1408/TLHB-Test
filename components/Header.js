@@ -20,7 +20,7 @@ function Header() {
     <div>
       {/* Monitor Screen 730pix + */}
     <div className='hidden 730pixels:flex w-full items-center justify-around bg-Jet h-[80px] fixed top-0 left-0 z-50 '>
-        <a href='/' className='relative w-[180px] flex items-center justify-center '><Image priority src={LogoWhite} /></a>
+        <a href='/' className='relative w-[210px] h-full flex items-center justify-center '><Image priority src={LogoWhite} layout='fill' objectFit='contain'  /></a>
         <div className='flex space-x-6 text-white select-none'>
 
             <div className='flex flex-col items-center justify-center group'><a className='group-hover:text-Classy transition-all duration-300 ease-in-out' href="/about">About</a><span className='h-[2px] w-0 bg-Classy group-hover:w-full transition-all duration-300 ease-in-out'></span></div>
@@ -42,14 +42,14 @@ function Header() {
 
     <div className='flex 730pixels:hidden w-full items-center justify-between px-5 bg-Jet h-[80px] fixed top-0 left-0 z-50 '>
 
-        <a href='/' className='relative w-[180px] flex items-center justify-center '><Image priority src={LogoWhite} /></a>
+        <a href='/' className='relative h-full w-[210px] flex items-center justify-center '><Image priority src={LogoWhite} layout='fill' objectFit='contain' /></a>
         
          {/* Menu Button Open*/}
         <div className='menu-open-btn flex items-center justify-center space-x-2'>
             <MenuIcon className='h-9 w-9 hover:brightness-125  text-Classy cursor-pointer rounded-full'/>
         </div>
 
-        <div className='fixed h-10 w-10 top-[81px] right-4 rounded-full bg-LimeGreen brightness-150 flex items-center justify-center p-2 hover:bg-Classy hover:brightness-100' ><a className='w-full h-full' href="/shop"><ShoppingCartIcon className=''/></a></div>
+        
 
     </div>
           {/* Mobile Screen 0-730pix MENU SECTION*/}

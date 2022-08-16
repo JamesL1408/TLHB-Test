@@ -13,7 +13,11 @@ module.exports = {
       screens: {
         '730pixels' : '730px',
         '770pixels' : '770px',
-        '900pixels' : '900px'
+        '900pixels' : '900px',
+        '500pixels' : '500px',
+        '640pixels' : '640px',
+        '870pixels' : '870px',
+        '1200pixels' : '1200px',
       },
       fontFamily:{
         Courgette : "'Courgette',cursive",

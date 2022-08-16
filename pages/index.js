@@ -16,6 +16,9 @@ import Footer from '../components/Footer'
 import DirectionLogo from '../images/direct-instagram.png'
 import FacebookLink from '../images/facebook.png'
 
+import {ShoppingCartIcon} from '@heroicons/react/outline'
+
+
 
 
 
@@ -35,6 +38,7 @@ const Home = () => {
       <Header/>
       <div className='flex w-full h-[80px] bg-transparent'></div>
       <Hero/>
+      <div className='fixed 730pixels:hidden h-10 w-10 top-[81px] right-4 rounded-full bg-LimeGreen brightness-150 flex items-center justify-center p-2 hover:bg-Classy hover:brightness-100 z-30' ><a className='w-full h-full' href="/shop"><ShoppingCartIcon className=''/></a></div>
 
       <main className='mt-10  grid grid-cols-1 gap-8 730pixels:grid-cols-2 900pixels:grid-cols-3  mx-[10%] '>
         <AboutUsCard/>
