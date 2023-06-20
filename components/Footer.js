@@ -18,7 +18,7 @@ function Footer() {
         </div>
         <div className='flex flex-col 900pixels:w-[33.3%] items-center'>
           <h1 className='text-lg font-medium my-5'>The London House Butchery</h1>
-          <a className='py-1 px-2 bg-red-600 rounded-md border border-white hover:bg-green-600 transition-all duration-300 ease-in-out mb-5 w-[200px]' href="tel:+4401994240055">📱 01994 240055</a>
+          <a className='py-1 px-2 bg-green-600 rounded-md border border-white  mb-5 w-[200px]' href="tel:+4401994240055">📱 01994 240055</a>
           <div className='flex flex-col'>
             <h2 className='font-medium text-lg mb-2'>Opening Times : </h2>
             <h3>Monday 9am - 5pm</h3>
